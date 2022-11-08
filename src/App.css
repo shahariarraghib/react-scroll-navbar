@@ -1,0 +1,72 @@
+.App {
+ 
+  text-align: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#my {
+  margin-top: -80px;
+}
+
+#name,
+#khan {
+  color: #3b3b3c;
+  background-color: rgb(194, 194, 132);
+}
+
+
+
+.nav {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky; 
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 70px;
+  min-height: 70px;
+  /* width: calc(100% - 1.5rem); */
+  background-color: black;
+  padding: 0 1rem;
+ 
+}
+
+
+
+.nav__container__actions {
+  display: inline-flex;
+  
+}
+
+.active {
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+
+
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+  
+}
+
+li {
+  cursor: pointer;
+  color: white;
+  
+}
+
+
